@@ -13,4 +13,7 @@ end
 vim.print = _G.dd
 
 -- require
-require("config.lazy")
+require("config")
+require("plugins")
+require("core")
+require("util")
