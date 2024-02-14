@@ -16,34 +16,5 @@ keymap.set("n", "<leader>`", vim.cmd.Ex)
 keymap.set("i", "jk", "<Esc>")
 
 
--- format 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-- format
+vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)

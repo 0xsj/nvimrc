@@ -11,6 +11,10 @@ local options = {
 
 	-- how many spaces do you want your tab to be?
 	shiftwidth = 2,
+	autoindent = false,
+	tabstop = 2,
+	softtabstop = 1,
+	smartindent = false,
 }
 
 
@@ -19,4 +23,3 @@ local options = {
 for key, value in pairs(options) do
 	vim.opt[key] = value
 end
-

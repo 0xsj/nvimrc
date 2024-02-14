@@ -2,16 +2,16 @@
 require("core.remap")
 
 -- plugin manager
-require("lazy-nvim")
+require("plugins.lazy-nvim")
 
--- core
+
 require("core.autocmd")
 require("core.opts")
 require("core.lspconfig")
 
 -- themes
-require("theme.tokyonight")
-
+-- require("theme.tokyonight")
+require("theme.vscode")
 
 
 
@@ -42,8 +42,8 @@ require("language.tsserver")
 
 
 -- Mason
-require("mason")
-require("mason-lspconfig")
+require("mason.mason")
+require("mason.mason-lspconfig")
 
 
 
