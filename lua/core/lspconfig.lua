@@ -10,7 +10,7 @@ local servers = {
 
 for _, lsp in ipairs(servers) do
 	lspconfig[lsp].setup {
-  on_attach = on_attach,
+		on_attach = on_attach,
 		capabilities = capabilities,
 		flags = lsp_flags,
 	}
@@ -19,7 +19,7 @@ end
 
 -- diagnostic
 vim.diagnostic.config({
-	-- virtual_text = false,
+	virtual_text = false,
 	-- signs = true,
 	-- underline = true,
 	-- update_in_insert = false,

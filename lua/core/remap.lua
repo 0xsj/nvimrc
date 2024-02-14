@@ -2,7 +2,6 @@
 
 
 
-
 local opts = { noremap = true, silent = true }
 local keymap = vim.keymap
 
@@ -17,4 +16,4 @@ keymap.set("i", "jk", "<Esc>")
 
 
 -- format
-vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
+vim.keymap.set("n", "<leader>fm", vim.lsp.buf.format)

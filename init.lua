@@ -54,8 +54,8 @@ require("mason.mason-lspconfig")
 
 
 -- plugins
-
-
+require("plugins.autopairs")
+require("plugins.harpoon")
 
 
 
@@ -65,7 +65,7 @@ require("mason.mason-lspconfig")
 
 
 -- telescope
-
+require("plugins.telescope")
 
 
 
