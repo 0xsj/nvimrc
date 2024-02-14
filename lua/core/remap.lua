@@ -16,8 +16,7 @@ keymap.set("n", "<leader>`", vim.cmd.Ex)
 keymap.set("i", "jk", "<Esc>")
 
 
-
-
+-- format 
 
 
 
