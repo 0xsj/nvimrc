@@ -12,6 +12,9 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-    spec = "core.lazy",
+    spec = {
+        { import = "core.lazy" },
+        { import = "core.language" }
+    },
     change_detection = { notify = false },
 })

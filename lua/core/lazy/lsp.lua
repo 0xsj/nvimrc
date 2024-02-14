@@ -54,19 +54,32 @@ return {
                     })
                 end,
 
-                ["lua_ls"] = function()
+
+                ["pyright"] = function()
                     local lspconfig = require("lspconfig")
-                    lspconfig.lua_ls.setup {
-                        capabilities = capabilities,
+                    lspconfig.pyright.setup({
                         settings = {
-                            Lua = {
-                                diagnostics = {
-                                    globals = { "vim", "it", "describe", "before_each", "after_each" },
+                            python = {
+                                formatting = {
+                                    provider = "black"
                                 }
                             }
                         }
-                    }
+                    })
                 end,
+                -- ["lua_ls"] = function()
+                --     local lspconfig = require("lspconfig")
+                --     lspconfig.lua_ls.setup {
+                --         capabilities = capabilities,
+                --         settings = {
+                --             Lua = {
+                --                 diagnostics = {
+                --                     globals = { "vim", "it", "describe", "before_each", "after_each" },
+                --                 }
+                --             }
+                --         }
+                --     }
+                -- end,
             }
         })
 

@@ -5,8 +5,17 @@ return {
         name = "plenary"
     },
 
-    "github/copilot.vim",
-    "eandrju/cellular-automaton.nvim",
     "gpanders/editorconfig.nvim",
-}
+    {
 
+        "ThePrimeagen/vim-be-good",
+        cmd = "VimBeGood",
+        config = function()
+            require("vimBeGood").setup {}
+        end
+    },
+    {
+        "christoomey/vim-tmux-navigator",
+        lazy = false
+    }
+}

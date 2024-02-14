@@ -29,6 +29,11 @@ keymap.set("i", "jk", "<Esc>")
 keymap.set("n", "Q", "<nop>")
 keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 keymap.set("n", "<leader>f", vim.lsp.buf.format)
+keymap.set("n", "<leader>fp", "<cmd>!black %<CR>")
+
+
+
+
 
 keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
 keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
