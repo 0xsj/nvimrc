@@ -1,5 +1,4 @@
-
--- remap - this is mainly here to take care of the leader issue with lazynvim. 
+-- remap - this is mainly here to take care of the leader issue with lazynvim.
 require("core.remap")
 
 -- plugin manager
@@ -10,20 +9,20 @@ require("core.autocmd")
 require("core.opts")
 require("core.lspconfig")
 
- -- themes
- 
+-- themes
+require("theme.tokyonight")
 
 
 
 
- -- CMP
- 
+-- CMP
+
 
 
 
 
 -- language severs
-
+require("language.tsserver")
 
 
 
@@ -43,6 +42,8 @@ require("core.lspconfig")
 
 
 -- Mason
+require("mason")
+require("mason-lspconfig")
 
 
 
@@ -71,16 +72,3 @@ require("core.lspconfig")
 
 
 -- treesitter
-
-
-
-
-
-
-
-
-
-
-
-
-
