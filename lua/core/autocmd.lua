@@ -7,3 +7,14 @@ vim.api.nvim_create_autocmd("InsertLeave", {
 
 
 -- local augment = vim.api.nvim_create_augroup()
+
+
+
+
+
+-- add custom filetypes
+vim.filetype.add({
+	extension = {
+		
+	}
+})
