@@ -12,50 +12,15 @@ require("core.lspconfig")
 -- themes
 -- require("theme.tokyonight")
 require("theme.vscode")
-
-
-
--- CMP
-
-
-
-
-
 -- language severs
 require("language.tsserver")
-
-
-
-
-
-
-
--- LSP
-
-
-
-
-
-
-
-
-
-
--- Mason
+require("plugins.zenmode")
 require("mason.mason")
 require("mason.mason-lspconfig")
-
-
-
-
-
-
-
-
-
--- plugins
 require("plugins.autopairs")
 require("plugins.harpoon")
+require("plugins.telescope")
+require("plugins.tmux")
 
 
 
@@ -65,9 +30,6 @@ require("plugins.harpoon")
 
 
 -- telescope
-require("plugins.telescope")
-
-
 
 
 

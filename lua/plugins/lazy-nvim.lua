@@ -116,7 +116,22 @@ require("lazy").setup({
 	{
 		"jose-elias-alvarez/null-ls.nvim",
 
-	}
+	},
+	{
+		"folke/zen-mode.nvim"
+	},
+	{
+		"aserowy/tmux.nvim",
+	},
 
+
+
+	{
+		"L3MON4D3/LuaSnip",
+		event = "InsertEnter",
+		dependencies = {
+			"saadparwaiz1/cmp_luasnip",
+		},
+	},
 
 })

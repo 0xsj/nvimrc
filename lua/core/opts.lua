@@ -15,6 +15,12 @@ local options = {
 	tabstop = 2,
 	softtabstop = 1,
 	smartindent = false,
+
+	wrap = false,
+
+
+	signcolumn = "yes"
+
 }
 
 
