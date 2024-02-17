@@ -1,8 +1,8 @@
 -- autocmd
-
+local set = vim.api
 
 -- paste off in insert mode
-vim.api.nvim_create_autocmd("InsertLeave", {
+set.nvim_create_autocmd("InsertLeave", {
 	pattern = "*", command = "set nopaste", })
 
 

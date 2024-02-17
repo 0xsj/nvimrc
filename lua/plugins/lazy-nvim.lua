@@ -133,5 +133,9 @@ require("lazy").setup({
 			"saadparwaiz1/cmp_luasnip",
 		},
 	},
+	{
+		"rose-pine/neovim",
+
+	}
 
 })
