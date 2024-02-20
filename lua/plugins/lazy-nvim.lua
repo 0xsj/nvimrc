@@ -136,6 +136,14 @@ require("lazy").setup({
 	{
 		"rose-pine/neovim",
 
+	},
+	{
+		"olexsmir/gopher.nvim",
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+			"nvim-treesitter/nvim-treesitter"
+
+		}
 	}
 
 })
