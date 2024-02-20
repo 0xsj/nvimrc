@@ -18,7 +18,7 @@ require("theme.vscode")
 -- language severs
 require("language.tsserver")
 
--- mason 
+-- mason
 require("mason.mason")
 require("mason.mason-lspconfig")
 
